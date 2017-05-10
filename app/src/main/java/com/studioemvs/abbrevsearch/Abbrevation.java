@@ -12,4 +12,12 @@ public class Abbrevation {
         this.term = term;
         this.definition = definition;
     }
+
+    public String getTerm() {
+        return term;
+    }
+
+    public String getDefinition() {
+        return definition;
+    }
 }
